@@ -68,6 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 	
 $upload_dir = HOST_WWW_ROOT . "uploads/pictures/";
+$upload_dir1 = HOST_WWW_ROOT . "uploads/files/";
 $image_fieldname ;
 
 
@@ -171,7 +172,7 @@ while($row=$result->fetch_row())
 
 		// Name the file uniquely
 	$now = time();
-	while (file_exists($upload_filename = $upload_dir . $now .
+	while (file_exists($upload_filename = $upload_dir1 . $now .
 	 '-' .
 	 $_FILES[$file_fieldname]['name'])) 
 	{
