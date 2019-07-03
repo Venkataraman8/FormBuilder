@@ -9,8 +9,6 @@
 ## WORKING
 1. SignUp with username password and other details.  
 2. Login with username and password  
-3. a.Create Form : fill basics  
-3. b.Use buttons to add form fields  
-3. c.Press Create after done  
+3. Create Form : fill basics ; Use buttons to add form fields ; Press Create after done  
 4. Use dynamic url to share forms for filling  
 5. View Response: view answers of your form.
