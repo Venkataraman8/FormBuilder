@@ -372,7 +372,7 @@ function File()
 <button id='image' onclick='Image()'>Image</button>
 <button id='file' onclick='File()'>File</button>
 
-<h2><?php echo $form_name;?></h2>
+<h2><center><?php echo "Create form".$form_name;?></center></h2>
 <form id='form' action='create_form2.php' Method='POST'>
 <input type='hidden' id='questions' name='questions' >
 <input type='hidden' id='types' name='types' >
