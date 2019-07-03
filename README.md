@@ -4,7 +4,7 @@
 2. Inside htdocs, create folder FormBuilder & dump php files 
 3. Create users1, forms, questions, responses sql tables
  or use tables.php  
-4. create folders pictures,files in directory htdocs/uploads  
+4. create folders pictures,files in directory FormBuilder/uploads  
 5. localhost//FormBuilder/
 
 ## WORKING
