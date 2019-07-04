@@ -10,7 +10,7 @@ $users1="CREATE TABLE IF NOT EXISTS users1(
 		email varchar(20) NOT  NULL,
 		phone_no varchar(10) NOT  NULL
     	
-		);"
+		);";
 
 $forms="CREATE TABLE IF NOT EXISTS forms(
 		
